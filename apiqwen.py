@@ -24,7 +24,7 @@ Client manager that uses aio_pika for inter-process messaging under asyncio.
                                     and receiving.
 '''
 
-client = OpenAI(api_key="sk-or-vv-85d0ef5227788a2fef72a2b91befc919fae80869def811371f5c8af634d5da95", base_url="https://api.vsegpt.ru/v1")
+client = OpenAI(api_key="", base_url="")
 
 response = client.chat.completions.create(
     model="qwen/qwen3-14b",
